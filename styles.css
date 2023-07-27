@@ -1,0 +1,150 @@
+body{
+    color: #40514e;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive; 
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5 rem;
+    color: #66bfbf;
+    /* font-weight: normal; */
+    
+}
+
+h3{
+    color:#66999e;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.top{
+    background-color: #E4F9F5;
+    position:relative;
+    padding:100px;
+    margin-bottom:5%;
+}
+hr{
+    border-style: none ;
+    border-top-style: dotted;
+    width: 5%;
+    border-width:7px;
+    border-color:grey;
+
+}
+.middle{
+   
+    background-color:white ;
+    margin:10% 0 5% 0;
+    
+
+}
+.bottom{
+
+    line-height: 2;
+    padding:30px;
+    background-color: #66bfbf;
+}
+.mount{
+    
+}
+.bottom-cloud{
+    position: absolute;
+    left:350px;
+    bottom:400px;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px
+}
+.profile{
+    margin:0 10% 8% 30%;
+    width:40%;
+    line-height:2;
+}
+.my{
+    border-radius: 50%;
+    width:50%;
+    text-align: center;
+    
+
+}
+.skills{
+    margin-top: 7%;
+}
+.developer-img{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+.coder-img{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+
+
+}
+.skill-row{
+    width:50%;
+    margin: 80px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.contact-me{
+    margin:5% 10% 0 30%;
+    line-height: 2;
+    width: 40%;
+}
+.footer-link{
+    margin:10px 25px;
+   
+    
+}
+.tweet:hover{
+    color: #031613;
+}
+.tweet{
+    height:40px;
+}
+.button{
+    /* color:bisque; */
+    border:black;
+    background-color: rgba(10, 124, 114, 0.829);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: solid;
+    font-family:normal;
+    display:inblock;
+    color: white;
+    box-shadow:0 2px 0 2px #cdc8c8;
+    transition-duration: 0.4s;
+    
+}
+.button:active {
+    background-color: #0c8682;
+    box-shadow: 0 3px 0 3px #666;
+    transform: translateY(4px);
+  }
+.button:hover {
+  background-color: #0b7a7a;
+  
+}
+.copyright{
+    color:#eaf6f6;
+    font-size: 0.9rem;
+}
+.manit{
+    text-decoration: none;
+    color: #eaf6f6;
+     font-size: 0.8rem;
+}
